@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss",
   "version": "1.0.0",
-  "source": "src/gcd.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -14,6 +14,9 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   },
+<<<<<<< HEAD
   "main": "tailwind.config.js",
+=======
+>>>>>>> 6748640d7b01dc9a5074de6951820ebf6413f801
   "description": ""
 }
