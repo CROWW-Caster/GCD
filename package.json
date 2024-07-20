@@ -14,9 +14,5 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   },
-<<<<<<< HEAD
-  "main": "tailwind.config.js",
-=======
->>>>>>> 6748640d7b01dc9a5074de6951820ebf6413f801
   "description": ""
 }
