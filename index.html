@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCD Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="container"
+    class="md:border-2 md:rounded-2xl w-full md:h-[500px] md:w-[600px] lg:w-[900px] px-8 py-12 md:mx-auto md:my-4">
+    <h1 class="text-3xl font-extrabold md:text-6xl text-amber-700 md:font-bold text-center">GCD Calculator</h1><br>
+    <div class="flex justify-evenly">
+      <input type="number" placeholder="1st number" id="num1"
+        class="bg-gray-100 text-lg md:text-3xl h-10 px-1 md:py-2 md:px-8 w-36 mr-4 md:w-[250px] lg:w-[500px] rounded-lg mb-4">
+      <input type="number" placeholder="2nd number" id="num2"
+        class="bg-gray-100 text-lg md:text-3xl h-10 px-1 md:py-2 md:px-8 w-36 ml-4 md:w-[250px] lg:w-[500px] rounded-lg">
+    </div>
+    <br><br>
+    <div class="flex">
+      <button id="calculate"
+        class="border-4 rounded-xl hover:bg-amber-600 bg-slate-500 mx-auto w-52 py-4 text-4xl font-extrabold font-mono text-center text-zinc-800">CALCULATE</button>
+    </div>
+    <br>
+    <h2 id="answer" class="text-5xl text-center font-bold text-amber-900"></h2>
+  </div>
+
+  <script src="./gcd.js"></script>
+</body>
+
+</html>
